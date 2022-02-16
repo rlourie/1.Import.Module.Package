@@ -3,10 +3,10 @@ from application.salary import calculate_salary
 import datetime
 import time
 
-DateCreation = datetime.datetime.today().strftime("%d-%m-%Y")
-TimeCreation = time.strftime("%H.%M.%S")
+date_creation = datetime.datetime.today().strftime("%d-%m-%Y")
+time_creation = time.strftime("%H.%M.%S")
 
-print("Local Date: ", TimeCreation + " " + DateCreation, "\n")
+print("Local Date: ", time_creation + " " + date_creation, "\n")
 
 if __name__ == '__main__':
     calculate_salary()
